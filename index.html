@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Images</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" /> </head>
+
+<body>
+    <header>
+        <h1>Responsive Images</h1></header>
+    <main>
+        <div class="col">
+            <ul>
+                <li>
+                    <picture>
+                        <!-- Image Attribution: Markus Spiske -->
+                        <source srcset="img/carrots-large.jpg" media="(min-width:1500px)" />
+                        <source srcset="img/carrots-medium.jpg" media="(min-width:700px) and (max-width:1500px)" />
+                        <source srcset="img/carrots-small.jpg" media="(max-width:700px)" /> 
+                        <img src="img/carrots-medium.jpg" alt="carrots" /> </picture>
+                </li>
+                <li>
+                    <picture>
+                        <!-- Image Attribution: Yinan Chen -->
+                        <source srcset="img/castlerock-large.jpg" media="(min-width:1500px)" />
+                        <source srcset="img/castlerock-medium.jpg" media="(min-width:700px) and (max-width:1500px)" />
+                        <source srcset="img/castlerock-small.jpg" media="(max-width:700px)" /> 
+                        <img src="img/castlerock-medium.jpg" alt="castlerock wisconsin sunset" /> </picture>
+                </li>
+                <li>
+                    <picture>
+                        <!-- Image Attribution: Markus Spiske -->
+                        <source srcset="img/concert-large.jpg" media="(min-width:1500px)" />
+                        <source srcset="img/concert-medium.jpg" media="(min-width:700px) and (max-width:1500px)" />
+                        <source srcset="img/concert-small.jpg" media="(max-width:700px)" />
+                         <img src="img/concert-medium.jpg" alt="crowd at concert" /> </picture>
+                </li>
+                <li>
+                    <picture>
+                        <!-- Image Attribution: Markus Spiske -->
+                        <source srcset="img/guitar-large.jpg" media="(min-width:1500px)" />
+                        <source srcset="img/guitar-medium.jpg" media="(min-width:700px) and (max-width:1500px)" />
+                        <source srcset="img/guitar-small.jpg" media="(max-width:700px)" />
+                        <img src="img/guitar-medium.jpg" alt="guitar" /> </picture>
+                </li>
+                <li>
+                    <picture>
+                        <!-- Image Attribution: Fahim Akhter -->
+                        <source srcset="img/pakistan-large.jpg" media="(min-width:1500px)" />
+                        <source srcset="img/pakistan-medium.jpg" media="(min-width:700px) and (max-width:1500px)" />
+                        <source srcset="img/pakistan-small.jpg" media="(max-width:700px)" />
+                        <img src="img/pakistan-medium.jpg" alt="pakistan mountains" /> </picture>
+                </li>
+                <li>
+                    <picture>
+                        <!-- Image Attribution: Markus Spiske -->
+                        <source srcset="img/stage-large.jpg" media="(min-width:1500px)" />
+                        <source srcset="img/stage-medium.jpg" media="(min-width:700px) and (max-width:1500px)" />
+                        <source srcset="img/stage-small.jpg" media="(max-width:700px)" /> 
+                        <img src="img/stage-medium.jpg" alt="stage" /> </picture>
+                </li>
+                <li>
+                    <picture>
+                        <!-- Image Attribution: Yinan Chen -->
+                        <source srcset="img/wisconsin-large.jpg" media="(min-width:1500px)" />
+                        <source srcset="img/wisconsin-medium.jpg" media="(min-width:700px) and (max-width:1500px)" />
+                        <source srcset="img/wisconsin-small.jpg" media="(max-width:700px)" /> 
+                        <img src="img/wisconsin-medium.jpg" alt="wisconsin mountains" /> </picture>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;
+            <time datetime="2016">2016</time> Alison Kapcala </p>
+    </footer>
+</body>
+
+</html>
